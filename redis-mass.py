@@ -23,4 +23,4 @@ if __name__ == "__main__":
         f = sys.stdin.readlines()
 
     for line in f:
-        print proto(line.rstrip().split(' ')),
+        print (proto(line.rstrip().split(' ')), end= '')
